@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<head>
+<title>Wallet App</title>
+<style>
+
+h1{
+color:black; 
+text-transform:uppercase;
+text-align:center;
+margin-left: -50px;
+}
+
+.btn
+{
+	margin: 20px 475px;
+	display: block;
+	padding: 15px 120px;
+	background: whitesmoke;
+	line-height: 1;
+	outline: none;
+	color:black;
+	transition: all 0.3s linear;
+    margin-left: 500px;
+}
+.btn:hover,
+.btn:focus
+{
+	background:white;
+	color:black;
+}
+.btn1
+{
+	margin: 0px 475px;
+	display: block;
+	padding: 15px 120px;
+	background:whitesmoke;
+	line-height: 1;
+	outline: none;
+	color:black;
+	transition: all 0.3s linear;
+    margin-left: 500px;
+}
+.btn1:hover,
+.btn1:focus
+{
+	background:white;
+	color:black;
+}
+
+.btn2
+{
+	margin: 20px 585px;
+	display: block;
+	padding: 15px 70px;
+	background: grey;
+	line-height: 1;
+	outline: none;
+	color:whitesmoke;
+	cursor: pointer;
+	transition: all 0.3s linear;
+    margin-left: 565px;
+
+}
+.btn2:hover,
+.btn2:focus
+{
+    background: rgb(28, 240, 123);
+    color:white;
+}
+
+</style>
+</head>
+<link rel="stylesheet" href="css/index.css">
+<body style="background-color: white;position: fixed;">
+<div style="background-color: black;">
+    <p>.</p> 
+</div>
+<h1>Wallet App</h1>
+<div style="background-color: black;">
+    <p>.</p>
+</div>
+<form action="connect1.php" method="POST">
+<input type="text" placeholder="Enter Email" id="123" class="btn" style="padding-left:20px; color:black;margin-top: 50px;" name="uname" required=""></input>
+<input type="password" placeholder="Enter password" id="12" class="btn1" style="padding-left:20px; color: black;" name="upas" required=""></input>
+<br>
+<a href="fp.html" style="text-decoration:none;color:black;font-size:22px;margin: 80px 490px;margin-left: 500px;">Forgot Password?</a>
+<a href="signup.html" style="text-decoration:none;color:black;font-size:22px;margin-left:-420px;">Sign Up</a>
+<input type="submit" value="&nbsp;LOGIN&nbsp;" class="btn2" onclick="window.location.href='home.html'"></input>
+</form>
+</body>
+</html>
+
